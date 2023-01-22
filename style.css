@@ -3,31 +3,33 @@ body {
 }
 
 .Image{
-    width:30vw;
-    height:auto;
+    position:flex;
+    width:auto;
+    height:40vh;
     margin:0.5vw;
+    transition: 0.3s;
 }
 
-.topnav {
-    background-color: #120578;
-    overflow: hidden;
+.Image:hover {
+    width:auto;
+    height:41vh;
 }
 
-.topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
+.Images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;
+.Row1 {
+    top: 50vh
 }
 
-.topnav a:active {
-    background-color: #1253FF;
-    color: white;
+.Banner {
+    width:100vw;
+    height:auto;
+    left:0px;
+    top:0px;
+    margin:-0.4vw -0.4vw 1vw -0.4vw;
+    padding:0px;
 }
